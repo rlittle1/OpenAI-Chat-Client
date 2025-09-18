@@ -1,0 +1,7 @@
+openai>=1.0.0
+python-dotenv>=1.0.0  # optional: if you want to load .env automatically in your own launcher
+pyinstaller>=5.0.0     # optional/dev: for building standalone executables
+
+Notes:
+- Tkinter is part of the Python standard library on many platforms; on some Linux distros you must install system packages (e.g., python3-tk).
+- Adjust versions as needed for your environment.
