@@ -30,19 +30,28 @@ A simple desktop GUI chat client for OpenAI models built with Python and Tkinter
 2. (Optional) Create and activate a virtual environment
    python -m venv venv
    # Windows
+   ```
    venv\Scripts\activate
+   ```
+
    # macOS / Linux
+   ```
    source venv/bin/activate
+   ```
 
-3. Install dependencies
+4. Install dependencies
+   ```
    pip install openai
+   ```
 
-4. Place the script in the repo (for example `chat_client.py`) — the GUI code in this repository assumes the OpenAI SDK is available as `from openai import OpenAI`.
+5. Place the script in the repo (for example `chat_client.py`) — the GUI code in this repository assumes the OpenAI SDK is available as `from openai import OpenAI`.
 
 ## Running
 
 Run the app:
+```
 python chat_client.py
+```
 
 On first run the app will ask whether you'd like to set your API key. You can:
 - Set the `OPENAI_API_KEY` environment variable before starting the app, or
